@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Romantic Surprise</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 50px 0;
+            background-color: #f0f0f0;
+            background-image: url('https://source.unsplash.com/1600x900/?love,heart'); /* Replace with your desired background image URL */
+            background-size: cover;
+        }
+
+        h1 {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: #ff0000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        #response {
+            font-size: 24px;
+            color: #fff;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>I LOVE YOU</h1>
+    <p>Do you love me?</p>
+    <button id="yesButton">Yes</button>
+    <button id="noButton">No</button>
+    <p id="response"></p>
+
+    <script>
+        document.getElementById("yesButton").onclick = function() {
+            document.getElementById("response").innerHTML = "☺️ My number is: 7739105800 ☺️";
+        };
+
+        document.getElementById("noButton").onclick = function() {
+            document.getElementById("response").innerHTML = "😭 Sorry 😭";
+        };
+    </script>
+</body>
+</html>
